@@ -164,6 +164,7 @@
             this.btnGenerateRnadomNumbers.TabIndex = 4;
             this.btnGenerateRnadomNumbers.Text = "Generate Random Numbers";
             this.btnGenerateRnadomNumbers.UseVisualStyleBackColor = false;
+            this.btnGenerateRnadomNumbers.Click += new System.EventHandler(this.btnGenerateRnadomNumbers_Click);
             // 
             // btnRoll
             // 

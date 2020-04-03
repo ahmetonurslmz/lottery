@@ -30,5 +30,23 @@ namespace Lottery
         {
 
         }
+
+        static Random _random = new Random();
+
+        public int generateRandomNumber(int range = 11)
+        {
+            /**
+             * Get random system from static new Random.
+             */
+            return _random.Next(range);
+        }
+
+        private void btnGenerateRnadomNumbers_Click(object sender, EventArgs e)
+        {
+            txtYourNumbers1.Text = generateRandomNumber().ToString();
+            txtYourNumbers2.Text = generateRandomNumber().ToString();
+            txtYourNumbers3.Text = generateRandomNumber().ToString();
+            txtYourNumbers4.Text = generateRandomNumber().ToString();
+        }
     }
 }
