@@ -41,6 +41,7 @@
             this.btnGenerateRnadomNumbers = new System.Windows.Forms.Button();
             this.btnRoll = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
+            this.lblGainedMessage = new System.Windows.Forms.Label();
             this.grpYourNumbers.SuspendLayout();
             this.grpHouseNumbers.SuspendLayout();
             this.SuspendLayout();
@@ -117,9 +118,9 @@
             // txtHouseNumbers4
             // 
             this.txtHouseNumbers4.BackColor = System.Drawing.Color.DarkKhaki;
-            this.txtHouseNumbers4.Enabled = false;
             this.txtHouseNumbers4.Location = new System.Drawing.Point(280, 48);
             this.txtHouseNumbers4.Name = "txtHouseNumbers4";
+            this.txtHouseNumbers4.ReadOnly = true;
             this.txtHouseNumbers4.Size = new System.Drawing.Size(65, 29);
             this.txtHouseNumbers4.TabIndex = 3;
             this.txtHouseNumbers4.Text = "0";
@@ -129,9 +130,9 @@
             // txtHouseNumbers3
             // 
             this.txtHouseNumbers3.BackColor = System.Drawing.Color.DarkKhaki;
-            this.txtHouseNumbers3.Enabled = false;
             this.txtHouseNumbers3.Location = new System.Drawing.Point(198, 48);
             this.txtHouseNumbers3.Name = "txtHouseNumbers3";
+            this.txtHouseNumbers3.ReadOnly = true;
             this.txtHouseNumbers3.Size = new System.Drawing.Size(65, 29);
             this.txtHouseNumbers3.TabIndex = 2;
             this.txtHouseNumbers3.Text = "0";
@@ -140,9 +141,9 @@
             // txtHouseNumbers2
             // 
             this.txtHouseNumbers2.BackColor = System.Drawing.Color.DarkKhaki;
-            this.txtHouseNumbers2.Enabled = false;
             this.txtHouseNumbers2.Location = new System.Drawing.Point(117, 48);
             this.txtHouseNumbers2.Name = "txtHouseNumbers2";
+            this.txtHouseNumbers2.ReadOnly = true;
             this.txtHouseNumbers2.Size = new System.Drawing.Size(65, 29);
             this.txtHouseNumbers2.TabIndex = 1;
             this.txtHouseNumbers2.Text = "0";
@@ -151,9 +152,9 @@
             // txtHouseNumbers1
             // 
             this.txtHouseNumbers1.BackColor = System.Drawing.Color.DarkKhaki;
-            this.txtHouseNumbers1.Enabled = false;
             this.txtHouseNumbers1.Location = new System.Drawing.Point(35, 48);
             this.txtHouseNumbers1.Name = "txtHouseNumbers1";
+            this.txtHouseNumbers1.ReadOnly = true;
             this.txtHouseNumbers1.Size = new System.Drawing.Size(65, 29);
             this.txtHouseNumbers1.TabIndex = 0;
             this.txtHouseNumbers1.Text = "0";
@@ -187,6 +188,7 @@
             this.btnRoll.TabIndex = 5;
             this.btnRoll.Text = "Roll";
             this.btnRoll.UseVisualStyleBackColor = false;
+            this.btnRoll.Click += new System.EventHandler(this.btnRoll_Click);
             // 
             // btnReset
             // 
@@ -201,6 +203,19 @@
             this.btnReset.TabIndex = 6;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
+            // lblGainedMessage
+            // 
+            this.lblGainedMessage.AutoSize = true;
+            this.lblGainedMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblGainedMessage.ForeColor = System.Drawing.Color.Green;
+            this.lblGainedMessage.Location = new System.Drawing.Point(69, 415);
+            this.lblGainedMessage.Name = "lblGainedMessage";
+            this.lblGainedMessage.Size = new System.Drawing.Size(0, 24);
+            this.lblGainedMessage.TabIndex = 7;
+            this.lblGainedMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblGainedMessage.Visible = false;
             // 
             // Form1
             // 
@@ -208,6 +223,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(459, 450);
+            this.Controls.Add(this.lblGainedMessage);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnRoll);
             this.Controls.Add(this.btnGenerateRnadomNumbers);
@@ -221,6 +237,7 @@
             this.grpHouseNumbers.ResumeLayout(false);
             this.grpHouseNumbers.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -239,6 +256,7 @@
         private System.Windows.Forms.Button btnGenerateRnadomNumbers;
         private System.Windows.Forms.Button btnRoll;
         private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Label lblGainedMessage;
     }
 }
 
