@@ -1,0 +1,9 @@
+C:\Users\Casper\workspace\c#\Lottery\Lottery\obj\Debug\Lottery.csprojAssemblyReference.cache
+C:\Users\Casper\workspace\c#\Lottery\Lottery\obj\Debug\Lottery.Form1.resources
+C:\Users\Casper\workspace\c#\Lottery\Lottery\obj\Debug\Lottery.Properties.Resources.resources
+C:\Users\Casper\workspace\c#\Lottery\Lottery\obj\Debug\Lottery.csproj.GenerateResource.cache
+C:\Users\Casper\workspace\c#\Lottery\Lottery\bin\Debug\Lottery.exe.config
+C:\Users\Casper\workspace\c#\Lottery\Lottery\bin\Debug\Lottery.exe
+C:\Users\Casper\workspace\c#\Lottery\Lottery\bin\Debug\Lottery.pdb
+C:\Users\Casper\workspace\c#\Lottery\Lottery\obj\Debug\Lottery.exe
+C:\Users\Casper\workspace\c#\Lottery\Lottery\obj\Debug\Lottery.pdb
