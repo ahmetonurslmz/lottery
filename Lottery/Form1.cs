@@ -33,20 +33,25 @@ namespace Lottery
 
         static Random _random = new Random();
 
-        public int generateRandomNumber(int range = 11)
+        private int generateRandomNumber()
         {
             /**
              * Get random system from static new Random.
              */
-            return _random.Next(range);
+            return _random.Next(10);
+        }
+
+        private string generateRandomNumberAndConvert()
+        {
+            return this.generateRandomNumber().ToString();
         }
 
         private void btnGenerateRnadomNumbers_Click(object sender, EventArgs e)
         {
-            txtYourNumbers1.Text = generateRandomNumber().ToString();
-            txtYourNumbers2.Text = generateRandomNumber().ToString();
-            txtYourNumbers3.Text = generateRandomNumber().ToString();
-            txtYourNumbers4.Text = generateRandomNumber().ToString();
+            txtYourNumbers1.Text = this.generateRandomNumberAndConvert();
+            txtYourNumbers2.Text = this.generateRandomNumberAndConvert();
+            txtYourNumbers3.Text = this.generateRandomNumberAndConvert();
+            txtYourNumbers4.Text = this.generateRandomNumberAndConvert();
         }
     }
 }

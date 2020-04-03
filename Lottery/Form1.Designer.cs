@@ -63,34 +63,42 @@
             // 
             this.txtYourNumbers1.BackColor = System.Drawing.Color.DarkKhaki;
             this.txtYourNumbers1.Location = new System.Drawing.Point(35, 48);
+            this.txtYourNumbers1.MaxLength = 1;
             this.txtYourNumbers1.Name = "txtYourNumbers1";
             this.txtYourNumbers1.Size = new System.Drawing.Size(65, 29);
             this.txtYourNumbers1.TabIndex = 0;
+            this.txtYourNumbers1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtYourNumbers2
             // 
             this.txtYourNumbers2.BackColor = System.Drawing.Color.DarkKhaki;
             this.txtYourNumbers2.Location = new System.Drawing.Point(117, 48);
+            this.txtYourNumbers2.MaxLength = 1;
             this.txtYourNumbers2.Name = "txtYourNumbers2";
             this.txtYourNumbers2.Size = new System.Drawing.Size(65, 29);
             this.txtYourNumbers2.TabIndex = 1;
+            this.txtYourNumbers2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtYourNumbers3
             // 
             this.txtYourNumbers3.BackColor = System.Drawing.Color.DarkKhaki;
             this.txtYourNumbers3.Location = new System.Drawing.Point(198, 48);
+            this.txtYourNumbers3.MaxLength = 1;
             this.txtYourNumbers3.Name = "txtYourNumbers3";
             this.txtYourNumbers3.Size = new System.Drawing.Size(65, 29);
             this.txtYourNumbers3.TabIndex = 2;
+            this.txtYourNumbers3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtYourNumbers3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // txtYourNumbers4
             // 
             this.txtYourNumbers4.BackColor = System.Drawing.Color.DarkKhaki;
             this.txtYourNumbers4.Location = new System.Drawing.Point(280, 48);
+            this.txtYourNumbers4.MaxLength = 1;
             this.txtYourNumbers4.Name = "txtYourNumbers4";
             this.txtYourNumbers4.Size = new System.Drawing.Size(65, 29);
             this.txtYourNumbers4.TabIndex = 3;
+            this.txtYourNumbers4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // grpHouseNumbers
             // 
